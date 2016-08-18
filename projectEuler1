@@ -1,0 +1,14 @@
+def mathfunction():
+    mathlist = []
+    for i in range(0, 1000):
+        if i % 3 == 0:
+            mathlist.append(i)
+        elif i % 5 == 0:
+            mathlist.append(i)
+        while i == 999:
+            sumlist = sum(mathlist)
+            print sumlist
+            break
+
+
+mathfunction()
